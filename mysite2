@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>  
+   <meta charset="UTF-8">
+   <title> Joshua Stewart </title>
+   <link rel="stylesheet" href="css/styles.css">
+   <link rel="icon" href="favicon.ico?v=2">
+  
+</head>          <!--  --> 
+  <body >
+    <div class="">
+        <h1> I'm Joshua </h1>
+        <p>a programmer</p>
+    </div>             <!-- div content division divides up content lesson 43-->
+   
+    
+   
+ </body>
+</html>
