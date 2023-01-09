@@ -1,0 +1,99 @@
+body{
+    margin:0  ;
+    text-align: center;
+    font-family:'Merriweather', 'serif';
+}
+
+ /*p{
+    background-color: red;     can do this and the p tag normally a BLOKK element BLOCKING out all else # 44 tutorial
+    display:inline-block;
+}*/
+
+
+
+
+
+
+h1{
+    
+    
+    margin-top:0;  /* centers automatically*/
+    font-family: 'Sacramento', cursive;
+}
+
+h2{
+    font-family:'Montserrat', sans-serif;
+}
+
+h3{
+    font-family:'Montserrat', sans-serif;
+}
+.top-container{      
+    padding-top:100px;         /* to pick out a class, we use the . dot */
+    background-color:#B6E2A1;
+    position:relative;      /* moving the size of the element */
+
+}
+
+.middle-container{
+    background-color:#91D8E4;
+    
+   
+}
+.bottom-container{
+    background-color:#AD8E70;
+    
+}
+
+.profile{
+    text-decoration: underline;
+}
+
+.top-cloud{
+    position:absolute;
+    right:300px;
+    top:50px;
+}
+.bottom-cloud{
+    position:absolute;
+    left:300px;
+    bottom:300px;
+
+}
+.skills{
+    position:center;
+    border: solid 0px;
+    border-color: grey;
+   
+    background-color: #CEEDC7;
+}
+.center{                      
+    margin-left:auto;
+    margin-right:auto;
+   
+}
+.pro{
+    text-decoration: underline;  /* underline the class  pro */
+}
+.joro{
+    height: 300px;
+    width: 300px;
+    border-radius: 300px;
+
+}
+.jopapa{
+    height: 300px;
+    width: 300px;
+    border-radius: 300px;
+
+}
+.study{
+    height:300px;
+    width:300px;
+    border-radius:300px;
+}
+.wat{
+    height: 400px;
+    width: 400px;
+    border-radius:400px;
+}
