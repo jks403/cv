@@ -1,6 +1,6 @@
 body{
     margin:0  ;
-    text-align: center;
+    text-align: center;          /* everything in the body will be centered --- look for it in the HTML */
     font-family:'Merriweather', 'serif';
 }
 
@@ -29,9 +29,9 @@ h3{
     font-family:'Montserrat', sans-serif;
 }
 .top-container{      
-    padding-top:100px;         /* to pick out a class, we use the . dot */
+    padding-top:100px;               /* to pick out a class, we use the . dot */
     background-color:#B6E2A1;
-    position:relative;      /* moving the size of the element */
+    position:relative;               /* moving the size of the element */
 
 }
 
@@ -40,34 +40,34 @@ h3{
     
    
 }
-.bottom-container{
+.bottom-container{                 /* look for the class="bottom-container" on the HTML side */
     background-color:#AD8E70;
     
 }
 
-.profile{
+.profile{                          /* everything in the profile is underlined */
     text-decoration: underline;
 }
 
-.top-cloud{
+.top-cloud{                      /* look for the class="top-cloud" on the HTML side */
     position:absolute;
     right:300px;
     top:50px;
 }
-.bottom-cloud{
+.bottom-cloud{      /* look for the class="bottom-cloud " on the HTML side */
     position:absolute;
     left:300px;
     bottom:300px;
 
 }
 .skills{
-    position:center;
+    position:center;                    /* look for the class="skills " on the HTML side */
     border: solid 0px;
     border-color: grey;
    
     background-color: #CEEDC7;
 }
-.center{                      
+.center{                          /* look for the class="center" on the HTML side */
     margin-left:auto;
     margin-right:auto;
    
@@ -95,5 +95,10 @@ h3{
 .wat{
     height: 400px;
     width: 400px;
+    border-radius:400px;
+}
+.jos-mike{
+    height:400px;
+    width:400px;
     border-radius:400px;
 }
