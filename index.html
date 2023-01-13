@@ -1,108 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
+    <meta charset="utf-8">
+    <title>Joshua Stewart</title>
+    <link rel="stylesheet" href="style7.css">
+    <link rel="icon" href="favicon.ico">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;1,200&family=Sacramento&display=swap" rel="stylesheet">  
  <head>  
-   <meta charset="UTF-8">
-   <title> Joshua's Personal Site </title>
 </head>          <!--  --> 
-  <body>
-                                                                                     <!--   C://Users/Owner/Desktop/web%20development/index.html  -->
-    <table cellspacing="50">                                                         <!-- can also do table border="20" -->
-        <tr>
-            <td><img src="jeshua.JPG" alt="joshua's portfolio picture"></td>
-
-            <td><h1>Joshua Stewart</h1>
-            <p><em>Informaton Technology Technician of <strong><a href="https://joshuakane.net/joshuas/joshuas.html">PPNorCal and U.S. Air Force</a></strong></em></p>
-            <p> I am a Full Stack Web Developer. I ❤ my wife and love Christmas time with family</p></td>
-        </tr>
-    </table>
+  <body >
     
-     <hr size="3">  <!-- this is the line horizontal rule   line separating content  -->
-     <h1> <em></em>Education and Training</em></h1>
-     <ul>
-        <li>Eureka High School</li>
-        <li>College of the Redwoods Associates of Arts in Science Exploration</li>
-        <li>San Diego State University</li>
-        <li>Mesa Jr. College</li>
-        <li>Humboldt State University Bachelor's of Science Computer Science</li>
-        
-      </ul>
-    
-<h3>Work Experience</h3>
-<table border="20">
+    <div class="top-container">
+      <img class="top-cloud" src="cloud.png" alt="cloud-img">"
+      <h1>I'm Joshua </h1>
+      <h2>a <span class="pro">pro</span> grammer</h2>
+      <img class="bottom-cloud" src="cloud.png" alt="mnt-img">    <!-- same folder so use the / -->
+      <img src="mountain.png" alt="mnt-img">
+    </div>
    
-   <tr>
-    <th>Dates</th><th>Work</th>
-   </tr>
-    <tr>                                                                                                                   <!-- row 1 -->
-        <td>2020-2023</td><td>Information Technology Technician</td><TD>Planned Parenthood Northern California</TD>        <!-- row 1 Column 1, 2 and 3 as indicated by the <TD>  </TD> -->
-     </tr>
-    <tr>
-        <td>2018-2023</td><td>Client Systems Techncian </td> <td> US Air Force Beale Air Force CA</td>                      <!-- row 2 column 1, 2 and 3  -->
-    </tr>
-    <tr> 
-        <td>2019-2019</td><td>Information Technology Technician</td><td>Mad River Community Hospital</td>
-    </tr>
-</table>
-<hr size="5">  
-
-<h3>Work Experience 2</h3>
-<table border="20">
-    <thead>
-        <tr>
-            <th> Dates </th>
-            <th>Work</th>
-        </tr>
-        <tbody>
-            <tfoot>
-
-            </tfoot>
-        </tbody>
-    </thead>
-</table>
-
-
-<hr size="5">
-
-<h3>Skills</h3>
-<table cellspacing="10">
-    <thead>
-        <tr>
-            <td>Web Development ⭐⭐⭐</td><td>Project Management ⭐⭐⭐</td>
-        </tr>
-    </thead>
-    
-    <tr>
-        <td>C++ ⭐⭐⭐</td><td>Cisco Meraki ⭐⭐⭐</td>
-    </tr>
-   
-</table>
-
-
-
-
-
-
-
-
-
-
-
-<table>
-        <tr>
-            <td> <h3> My Hobbies </h3> 
-                <a href="hobbies.html">My hobbies</a> </td>
-
-            <td> <h3> My Skills </h3>
-                <a href="skills.html"> My Skills</a></td>
-            
-                
-            <td> <h3> Contact Me</h3>
-                <a href="contact-me.html">Contack Me</a></td>>
-            
-        </tr>
-    </table>
+    <div class="middle-container">
+      <div class="profile">
+        <img src="Jeshua.jpg" alt="">   
+         <h2>Hello.</h2>
+        <p> I'm a computer scientist. I am an I.T. technician for Planned Parenthood</p>
+      </div>
       
-     
-   
- </body>
+    
+      <div class="skills">
+          <h2>Bioinformatics Programming</h2>
+          <div class="skill-row">
+            <img class="bss" src="MeatDeskLIghter.jpg" alt="">
+            <h3>Design and Development</h3>
+            <p class="code-description"> In Bioinformatics programming we were taught to write algorithms to sequence the genes of plant life for viability analysis and to prtect against predation </p>
+          </div>   <!-- closing the class ="bss" tag ... all info on this class is in the .bss class -->
+        
+          <div class="skill-row">
+            <img class="wat" src="water_dist.JPG" alt=""> 
+            <h3>SQL Analyst</h3>     
+            <p class="code-description2" >At the water district, I analyzed Visual Basic code and designed SQL queries to determine damage in the Ruth Lake Dam </p>                     
+          </div>
+      </div>
+      <hr>
+    <div>
+      <div class="contact-me">
+        <h2>Get In Touch</h2>
+        <h3>If you want to develop or just work on some existing code, reach out</h3>
+        <p class="contact-message">I like to watch baseball games with friends & Family. iF You want to watch some baseball and have some fun, please let me know</p>
+        <a class="btn" href="mailto:jks403@Gmail.com">CONTACT ME</a>
+      </div>
+    </div>
+    
+    
+    <div class="bottom-container">
+      <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
+      <a class="footer-link" href="https://jks403.github.io/cv/">GitHub</a>
+      <a class="footer-link" href="https://www.appbrewery.co/">Website</a>
+      <p>© jstewart@PPNorCal.org</p>
+    </div>
+ 
+ 
+  </body>
 </html>
