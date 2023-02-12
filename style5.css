@@ -31,7 +31,7 @@ h3{
 .top-container{      
     padding-top:100px;               /* to pick out a class, we use the . dot */
     background-color:#B6E2A1;
-    position:relative;               /* moving the size of the element */
+    position:absolute;               /* moving the size of the element */
 
 }
 
