@@ -50,7 +50,7 @@ h3{
 }
 
 .top-cloud{                      /* look for the class="top-cloud" on the HTML side */
-    position:absolute;
+    position:relative;
     right:900px;
     top:50px;
 }
